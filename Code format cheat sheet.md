@@ -1,5 +1,5 @@
- How to Format Code Correctly  
-For those who for some reason can’t figure it out
+## How to Format Code Correctly  
+# For those who for some reason can’t figure it out
 
 [**1\. Indent-alignment**](#indent-alignment)
 
