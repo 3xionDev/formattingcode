@@ -21,7 +21,7 @@ For those who for some reason can’t figure it out
 
 [**10\. Solutions**](#solutions)
 
-1. ## Indent-alignment {#indent-alignment}
+1. # Indent-alignment {#indent-alignment}
 
    1. Indent-alignment is when a line of code begins in the same horizontal position as the previous line, in other words it is **aligned** with the previous line.  
    2. Generally speaking, a line of code should not be indented unless it is inside a statement, be it a function definition or a conditional.  
