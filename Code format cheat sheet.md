@@ -33,7 +33,7 @@ For those who for some reason can’t figure it out
    8. Take care not to make indent alignment errors, as it is often necessary to manually re-align every subsequent line of code.  
    9. Some IDEs have a “Cleanup” function, where you can press a hotkey and it will automatically re-align most or all of your code.
 
-2. ## Variables {#variables}
+2. # Variables {#variables}
 
    1. A **variable** is a piece of code that stores a value, be it a text string, a numeric integer, or an ASCII character.  
    2. There are many types of variables, and different languages have different types, however the most common are:  
@@ -96,7 +96,7 @@ xOperated = (2*(x^(x-1))/(x%7))
 print("The output number is: " + xOperated) //better and easier to read
 ```
 
-3. ## Operations {#operations}
+3. # Operations {#operations}
 
    1. All languages have certain **operators** that allow the program to do math.  
    2. The operators generally follow a common character scheme regardless of language:  
@@ -143,7 +143,7 @@ sub-- //resilt: sub = -1
 
    5. Not every language has operate-assign operators or iterators.
 
-4. ## Conditionals {#conditionals}
+4. # Conditionals {#conditionals}
 
    1. Most languages contain **conditional** operators and statements which are used to compare two values and execute code based on the result.  
    2. The conditional operators are as follows:  
@@ -293,7 +293,7 @@ end
 //the above program takes the comparison of "does x equal one AND y equal one" OR "is y greater than or equal to three AND x is not equal to three" and runs the if...then based on the result
 ```
 
-5. ## Comments {#comments}
+5. # Comments {#comments}
 
    1. Every programming language allows the developer to prefix text with a certain combination of characters (a character code) that prevents the code interpreter from reading that text. This text is known as a **comment**, and the prefix code is called the **comment prefix**. This prefix is one of the most varied parts of syntax in the programming world. Virtually every programming language has its own comment prefix. Some languages use “//”, some use “/\*”, and so on. This makes generalizing comments very hard in pseudocode, as there is no set prefix for every language. Therefore, there will not be any pseudocode in this section.  
    2. Some languages have separate prefixes for **single line** and **multiline** comments. These are precisely what they sound like; single line comments only include one line in the comment, while multiline comments include all text from the beginning prefix to the ending suffix, allowing multiple newline characters to be included.   
@@ -302,7 +302,7 @@ end
    5. Single line comments **do** **not** have an ending suffix. They comment out the entire line after the prefix. This is the reason that multiline comments are used to disable a specific portion of code.   
    6. To find your language’s respective comment prefixes and suffixes, simply google “(language) comment syntax” and it should tell you.
 
-6. ## Escape sequences {#escape-sequences}
+6. # Escape sequences {#escape-sequences}
 
    1. Most languages have a series of **escape sequences**, which allow certain reserved characters to be stored in a string.  
    2. Reserved characters are language-specific character sequences that perform an operation within a string. These characters are also represented as escape sequences, and are therefore discussed here. Operation sequences and reserve-allow sequences are generally the same across languages. For convenience, operation sequences and reserve-allow sequences will be separated.   
@@ -333,7 +333,7 @@ I can also use a backspace like thi"back"s.
 like this! The last one I can use is the carriage return
 ```
 
-7. ## Errors {#errors}
+7. # Errors {#errors}
 
    1. When a program runs into a problem, it generally returns an **error statement**. These are useless unless you know how to read them, in which case they can tell you exactly what is wrong with the program.  
    2. Most error statements follow a similar format, with some languages having their own quirks. The common format is as follows:
@@ -373,7 +373,7 @@ program stopped with exit code 0xfff00000
       4. Runtime error \- these are caught by the error handler. These occur at runtime of the program, typically caused by a piece of code that interferes with the program running.  
       5. Compiler error \- these are caught by the error handler. Typically caused by something in the program interfering with the compiler’s ability to, well, compile.
 
-8. ## Common sense practices {#common-sense-practices}
+8. # Common sense practices {#common-sense-practices}
 
    1. This section is dedicated to common sense practices that a programmer should do:  
       1. Unless you’re minimizing your code (you shouldn’t be), the amount of lines within the program does not matter. Never write an entire statement on one line like this:
@@ -391,7 +391,7 @@ while i = 1 do print "i is one!" end
       5. Do not be afraid to ask for help. This is something that many beginner developers have. Nobody will judge you, nobody is expecting you to know how to code from the get-go. If you’re having trouble, ask somebody who has more experience and often they can help.  
       6. When in doubt, google it. There are millions of programmers on the internet that have likely already posted the solution to the problem you’re having. Don’t make it harder for yourself by trying to re-discover the solution yourself; check if someone’s fixed it already.
 
-9. ## Practice {#practice}
+9. # Practice {#practice}
 
    1. Indent-align this pseudocode (hint: all pseudocode in this paper is indent-aligned, use that as reference):
 
@@ -452,7 +452,7 @@ program stopped with exit code 0x19110000
 
    9. If you can’t figure something out for yourself, what do you do? What do you **never** do?
 
-10. ## Solutions {#solutions}
+10. # Solutions {#solutions}
 
     1. Aligned pseudocode:
 
